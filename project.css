@@ -1,0 +1,101 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: Verdana;
+}
+p {
+font-family: Helvetica;
+}
+nav {
+background-color: #FF69B4;
+border-top: 1px solid grey;
+font-size: 25px;
+}
+nav ul{
+display: flex;
+list-style-type: none;
+justify-content: space-between;
+}
+
+
+.nav-bar-link {
+text-decoration: none;
+color: #87CEFA;
+}
+#nav-links li a:visited {
+color: #FF00FF;
+}
+#nav-links li a:hover {
+color: Black;
+}
+#nav-links li a:active{
+color: #FF8C00;
+}
+#nav-links {
+list-style-type: none;
+width: 100%;
+text-align: center;
+}
+
+#nav-links li {
+display: inline;
+}
+
+header {
+display: flex;
+flex-flow: column nowrap;
+    background-color: #FF69B4;
+width: 100%;
+
+}
+
+footer {
+    background-color: #FF69B4;
+}
+
+@media screen and (min-width: 36em) {
+body {
+width: 80%;
+max-width: 800px;
+margin: auto;
+}
+nav {
+position: static;
+font-size: 1.25em;
+}
+.nav-bar-link{
+padding: 0% 2%
+}
+main {
+flex-flow: row wrap;
+
+}
+
+footer{
+font-size: 1.25em
+}
+
+}
+@media (min-width: 36em) and (max-width: 46em){
+
+}
+nav{
+font-size: 1.15em;
+}
+
+@media (max-width: 56.5em) and (min-width: 46em){
+
+nav{
+font-size: 1.15em;
+}
+}
+@media (max-width: 41em) and (min-width: 36em){
+
+nav{
+font-size: 1.0em;
+}
+}
+
